@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import "./Navigation.css";
 import { Link, NavLink } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBriefcase, faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navigation = () => {
   const [open, setOpen] = useState(false);
@@ -64,7 +62,7 @@ const Navigation = () => {
               </NavLink>
             </li>
           ))}
-          <button className=" font-[Poppins] py-2 px-6 btn btn-error md:ml-6 ">
+          <button className=" font-[Poppins] py-2 px-6 btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] md:ml-6 ">
             jhdfjkhasd
           </button>
         </ul>

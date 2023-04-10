@@ -6,10 +6,8 @@ import FeaturedJobs from "../LayoutComponent/FeaturedJobs/FeaturedJobs";
 const Layout = () => {
   return (
     <div className="md:w-9/12 md:mx-auto">
-      <div className="hidden">
-        <Header></Header>
-        <JobCategoryList></JobCategoryList>
-      </div>
+      <Header></Header>
+      <JobCategoryList></JobCategoryList>
       <FeaturedJobs></FeaturedJobs>
     </div>
   );

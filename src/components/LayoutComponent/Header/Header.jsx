@@ -17,7 +17,9 @@ const Header = () => {
           need. Its your future. Come find it. Manage all your job application
           from start to finish.
         </p>
-        <button className="btn btn-error">Get Started</button>
+        <button className="btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF]">
+          Get Started
+        </button>
       </div>
     </div>
   );

@@ -1,11 +1,11 @@
 [
   {
-    "name": "Software Developer",
+    "name": "Technical Database Engineer",
     "id": 1,
     "image": "../src/assets/All Images/google-1-1 1.png",
-    "company": "Google",
+    "company": "Google LLC",
     "jobTypes": ["Full-time", "Remote"],
-    "location": "San Francisco, CA",
+    "location": "Dhaka,Bangladesh",
     "jobDescription": "We are seeking a talented software developer to join our team. The ideal candidate will have experience with modern web development frameworks and tools.",
     "jobResponsibilities": [
       "Develop new features for our web application",
@@ -17,7 +17,8 @@
       "At least 3 years of experience in web development",
       "Experience with React or Angular",
       "Familiarity with Git and Agile development methodologies"
-    ]
+    ],
+    "salary": "$90,000 - $110,000"
   },
   {
     "name": "Marketing Manager",
@@ -25,7 +26,7 @@
     "image": "../src/assets/All Images/netflix-4 1.png",
     "company": "Netflix",
     "jobTypes": ["Part-time", "Contract"],
-    "location": "New York, NY",
+    "location": "Dhaka,Bangladesh",
     "jobDescription": "We are looking for an experienced marketing manager to develop and implement marketing campaigns to increase brand awareness and drive revenue growth.",
     "jobResponsibilities": [
       "Develop and implement marketing campaigns",
@@ -37,15 +38,16 @@
       "At least 5 years of experience in marketing",
       "Experience in B2B marketing",
       "Experience with marketing automation and CRM tools"
-    ]
+    ],
+    "salary": "$130,000 - $200,000"
   },
   {
-    "name": "Accountant",
+    "name": "Software Engineer",
     "id": 3,
     "image": "../src/assets/All Images/tesla-9 1.png",
-    "Company": "Tesla",
+    "company": "Tesla",
     "jobTypes": ["Contract", "Temporary"],
-    "location": "Chicago, IL",
+    "location": "Dhaka,Bangladesh",
     "jobDescription": "We are seeking a detail-oriented accountant to assist with financial reporting, analysis, and budgeting.",
     "jobResponsibilities": [
       "Prepare financial statements and reports",
@@ -57,7 +59,8 @@
       "At least 2 years of experience in accounting or finance",
       "CPA certification preferred",
       "Experience with QuickBooks or similar accounting software"
-    ]
+    ],
+    "salary": "$140,000 - $180,000"
   },
   {
     "name": "Graphic Designer",
@@ -65,7 +68,7 @@
     "image": "../src/assets/All Images/Group 10021.png",
     "company": "Airbnb",
     "jobTypes": ["Full-time", "Freelance"],
-    "location": "Los Angeles, CA",
+    "location": "Dhaka,Bangladesh",
     "jobDescription": "We are seeking a creative graphic designer to create engaging visual content for digital and print media.",
     "jobResponsibilities": [
       "Design marketing collateral such as brochures, flyers, and banners",
@@ -77,7 +80,8 @@
       "At least 3 years of experience in graphic design",
       "Expertise in Adobe Creative Suite",
       "Experience"
-    ]
+    ],
+    "salary": "$40,000 - $100,000"
   },
   {
     "name": "Graphic Designer",
@@ -85,7 +89,7 @@
     "image": "../src/assets/All Images/CareerHub.png",
     "company": "Career Hub",
     "jobTypes": ["Full-time", "Freelance"],
-    "location": "Los Angeles, CA",
+    "location": "Dhaka,Bangladesh",
     "jobDescription": "We are seeking a creative graphic designer to create engaging visual content for digital and print media.",
     "jobResponsibilities": [
       "Design marketing collateral such as brochures, flyers, and banners",
@@ -97,6 +101,7 @@
       "At least 3 years of experience in graphic design",
       "Expertise in Adobe Creative Suite",
       "Experience"
-    ]
+    ],
+    "salary": "$140,000 - $180,000"
   }
 ]
