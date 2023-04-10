@@ -1,0 +1,25 @@
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 120px 50px 120px;
+}
+.link {
+  display: flex;
+  text-decoration: none;
+  gap: 3rem;
+}
+
+@media screen and (max-width: 570px) {
+  .navigation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+  }
+  .link {
+    flex-direction: column;
+    position: relative;
+    top: -300px;
+  }
+}
