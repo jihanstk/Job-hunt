@@ -3,7 +3,7 @@ import person from "../../../assets/All Images/P3OLGJ1 copy 1.png";
 
 const Header = () => {
   return (
-    <div className="md:flex flex-col-reverse md:flex-row md:w-9/12 md:mx-auto mb-20">
+    <div className="md:flex flex-col-reverse md:flex-row mb-20 ">
       <div>
         <img src={person} alt="" />
       </div>
@@ -12,7 +12,7 @@ const Header = () => {
           One Step <br /> Closer To Your <br />
           <span className="text-orange-500">Dream Job</span>
         </h1>
-        <p className="my-5">
+        <p className="my-5 text-gray-500 ">
           Explore thousands of job opportunities with all the information you
           need. Its your future. Come find it. Manage all your job application
           from start to finish.
