@@ -15,14 +15,14 @@ const JobDetails = () => {
 
   return (
     <div>
-      <div className=" w-full flex">
+      <div className=" w-full md:flex relative">
         <img src={vector} alt="" />
-        <div className="w-6/12">
+        <div className="md:w-6/12 md:static md:left-0 absolute top-20 left-24">
           <h1 className="text-center text-4xl font-bold">Job Details</h1>
         </div>
       </div>
 
-      <div>
+      <div className="mt-20">
         {Object.keys(details).length > 0 ? (
           <JobDetail details={details}></JobDetail>
         ) : (
