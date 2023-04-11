@@ -7,9 +7,25 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import React from "react";
+import React, { useState } from "react";
+import { addToDb } from "../../utilities/fakedb";
 
 const JobDetail = ({ details }) => {
+  const [appliedJob, setAppliedJob] = useState([]);
+
+  const handleApplyNow = (job) => {
+    let saveJobs = [];
+    const jobExists = appliedJob.find((aj) => aj.id == job.id);
+    if (!jobExists) {
+      saveJobs = [...appliedJob];
+    } else {
+      const remaining = appliedJob.find((aj) => aj.id !== job.id);
+      saveJobs = [...remaining, jobExists];
+    }
+
+    setAppliedJob(saveJobs);
+    addToDb(job);
+  };
   return (
     <div className="grid-custom-jobDetail w-10/12  mx-auto">
       <div>
@@ -88,7 +104,10 @@ const JobDetail = ({ details }) => {
           </p>
         </div>
 
-        <button className="my-10 btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] w-full">
+        <button
+          onClick={() => handleApplyNow(details)}
+          className="my-10 btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] w-full"
+        >
           Apply Now
         </button>
       </div>

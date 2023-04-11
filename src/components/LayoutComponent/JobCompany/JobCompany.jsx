@@ -15,9 +15,12 @@ const JobCompany = ({ jobCompany }) => {
         ))}
       </div>
       <p>{jobCompany.location}</p>
-      <button className=" mt-2 btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF]">
-        <Link to={`/jobinfo/${jobCompany.id}`}>View Details</Link>
-      </button>
+
+      <Link to={`/jobinfo/${jobCompany.id}`}>
+        <button className=" mt-2 btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF]">
+          View Details
+        </button>
+      </Link>
     </div>
   );
 };
