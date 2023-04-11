@@ -5,13 +5,13 @@ const Footer = () => {
   return (
     <div className="md:p-20 md:px-32  bg-black mt-40">
       <div className="grid-custom md:text-left text-center border-b border-slate-600 ">
-        <div className="text-white p-2">
+        <div className="text-white p-2 pt-10">
           <h1 className=" text-3xl">CareerHub</h1>
           <p className="text-slate-400">
             There are many variations of passages of Lorem Ipsum , but the
             majority have suffered alteration in some form.
           </p>
-          <img src={social} alt="" />
+          <img className="md:mx-0 mx-auto" src={social} alt="" />
         </div>
         <div className=" text-white text-center my-5">
           <h2 className="text-2xl">Company</h2>
@@ -72,7 +72,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="text-slate-500 mt-16">
+      <div className="text-slate-500 mt-16 pb-10 text-center">
         <h1> @2023 CareerHub. All Rights Reserved</h1>
       </div>
     </div>

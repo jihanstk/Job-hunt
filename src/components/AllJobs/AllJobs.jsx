@@ -12,7 +12,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const AllJobs = ({ job }) => {
   const { name, image, company, jobTypes, location, id, salary } = job;
   return (
-    <div className="border-x-2 md:flex items-center justify-between md:w-10/12 mx-auto mb-6 md:p-10 p-4 text-center md:text-left">
+    <div className="border-2 rounded md:flex items-center justify-between md:w-10/12 mx-auto mb-6 md:p-10 p-4 text-center md:text-left">
       <div className="md:w-4/12">
         <img className="mx-auto" src={image} alt="" />
       </div>

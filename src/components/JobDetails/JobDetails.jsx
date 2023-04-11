@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import "./JobDetails.css";
-import vector from "../../assets/All-images/Vector.png";
 import JobDetail from "../jobDetail/JobDetail";
+import RouteHeaders from "../RouteHeaders/RouteHeaders";
 
 const JobDetails = () => {
   const [details, setDetails] = useState({});
@@ -15,12 +15,7 @@ const JobDetails = () => {
 
   return (
     <div>
-      <div className=" w-full md:flex relative">
-        <img src={vector} alt="" />
-        <div className="md:w-6/12 md:static md:left-0 absolute top-20 left-24">
-          <h1 className="text-center text-4xl font-bold">Job Details</h1>
-        </div>
-      </div>
+      <RouteHeaders>{details.company}</RouteHeaders>
 
       <div className="mt-20">
         {Object.keys(details).length > 0 ? (

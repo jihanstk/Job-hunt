@@ -14,16 +14,16 @@ const JobDetail = ({ details }) => {
   const [appliedJob, setAppliedJob] = useState([]);
 
   const handleApplyNow = (job) => {
-    // let saveJobs = [];
-    // const jobExists = appliedJob.find((aj) => aj.id == job.id);
-    // if (!jobExists) {
-    //   saveJobs = [...appliedJob];
-    // } else {
-    //   const remaining = appliedJob.find((aj) => aj.id !== job.id);
-    //   saveJobs = [...remaining, jobExists];
-    // }
+    let saveJobs = [];
+    const jobExists = appliedJob.find((aj) => aj.id == job.id);
+    if (!jobExists) {
+      saveJobs = [...appliedJob];
+    } else {
+      const remaining = appliedJob.find((aj) => aj.id !== job.id);
+      saveJobs = [...remaining, jobExists];
+    }
 
-    // setAppliedJob(saveJobs);
+    setAppliedJob(saveJobs);
     addToDb(job);
   };
   return (
@@ -60,7 +60,7 @@ const JobDetail = ({ details }) => {
       </div>
       <div className="md:text-left text-center md:pl-12 font-serif my-10">
         <h1 className=" text-xl font-bold border-b border-purple-200 pl-5 pb-5">
-          Job Details
+          Job Details : {details.company}
         </h1>
         <div className="">
           <p className="my-3">

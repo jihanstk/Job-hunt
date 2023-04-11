@@ -11,6 +11,7 @@ import {
 } from "recharts";
 
 const Statistics = () => {
+  // const []=
   const data = [
     {
       name: "Assignment-1",
