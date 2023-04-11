@@ -5,6 +5,9 @@
     "image": "../src/assets/All-images/google-1-1 1.png",
     "company": "Google LLC",
     "jobTypes": ["Full-time", "Remote"],
+    "phone": "01800-000108",
+    "email": "info@yahoo.com",
+    "address": "sector 14, uttara Dhaka, Bangladesh",
     "location": "Dhaka,Bangladesh",
     "jobDescription": "We are seeking a talented software developer to join our team. The ideal candidate will have experience with modern web development frameworks and tools.",
     "jobResponsibilities": [
@@ -26,6 +29,9 @@
     "image": "../src/assets/All-images/netflix-4 1.png",
     "company": "Netflix",
     "jobTypes": ["Part-time", "Contract"],
+    "phone": "01800-003408",
+    "email": "info@gmail.com",
+    "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh",
     "location": "Dhaka,Bangladesh",
     "jobDescription": "We are looking for an experienced marketing manager to develop and implement marketing campaigns to increase brand awareness and drive revenue growth.",
     "jobResponsibilities": [
@@ -47,6 +53,9 @@
     "image": "../src/assets/All-images/tesla-9 1.png",
     "company": "Tesla",
     "jobTypes": ["Contract", "Temporary"],
+    "phone": "01800-00008",
+    "email": "info@gmail.com",
+    "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh",
     "location": "Dhaka,Bangladesh",
     "jobDescription": "We are seeking a detail-oriented accountant to assist with financial reporting, analysis, and budgeting.",
     "jobResponsibilities": [
@@ -68,6 +77,9 @@
     "image": "../src/assets/All-images/Group 10021.png",
     "company": "Airbnb",
     "jobTypes": ["Full-time", "Freelance"],
+    "phone": "01800-000308",
+    "email": "info@yahoo.com",
+    "address": "mirpur 12, Sukrabad Dhaka, Bangladesh",
     "location": "Dhaka,Bangladesh",
     "jobDescription": "We are seeking a creative graphic designer to create engaging visual content for digital and print media.",
     "jobResponsibilities": [
@@ -89,6 +101,9 @@
     "image": "../src/assets/All-images/CareerHub.png",
     "company": "Career Hub",
     "jobTypes": ["Full-time", "Freelance"],
+    "phone": "01800-020308",
+    "email": "info@gmail.com",
+    "address": "mirpur 12, Dhaka, Bangladesh",
     "location": "Dhaka,Bangladesh",
     "jobDescription": "We are seeking a creative graphic designer to create engaging visual content for digital and print media.",
     "jobResponsibilities": [

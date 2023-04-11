@@ -1,6 +1,7 @@
 import {
   faCircleDollarToSlot,
   faCalendarAlt,
+  faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -39,7 +40,7 @@ const JobDetail = ({ details }) => {
           </span>
         </div>
       </div>
-      <div className="md:text-left text-center pl-12 font-serif">
+      <div className="md:text-left text-center md:pl-12 font-serif my-10">
         <h1 className=" text-xl font-bold border-b border-purple-200 pl-5 pb-5">
           Job Details
         </h1>
@@ -55,6 +56,19 @@ const JobDetail = ({ details }) => {
               <FontAwesomeIcon icon={faCalendarAlt}></FontAwesomeIcon>
             </span>
             <strong>Job Title</strong> : {details.name}
+          </p>
+        </div>
+        <h3 className=" text-lg font-bold border-b border-purple-200 my-8 pl-5 pb-5">
+          Contact Information
+        </h3>
+
+        <div>
+          <p>
+            <span className=" text-purple-500">
+              <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
+            </span>
+            <strong>Phone :</strong>
+            <span></span>
           </p>
         </div>
       </div>
