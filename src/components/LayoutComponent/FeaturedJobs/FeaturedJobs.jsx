@@ -16,7 +16,7 @@ const FeaturedJobs = ({ allCompany }) => {
     <div className="">
       <div className="text-center my-10">
         <h1 className="text-4xl font-bold">Featured Jobs</h1>
-        <p className="text-gray-500">
+        <p className="text-gray-500 p-8">
           Explore thousands of job opportunities with all the information you
           need. Its your future
         </p>

@@ -2,6 +2,8 @@ import {
   faCircleDollarToSlot,
   faCalendarAlt,
   faPhone,
+  faMailBulk,
+  faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -34,8 +36,8 @@ const JobDetail = ({ details }) => {
           <strong>Experiences :</strong>
           <span className=" text-slate-600">
             {" "}
-            {details.experiences.map((experience) => (
-              <p>{experience}</p>
+            {details.experiences.map((experience, index) => (
+              <p key={index}>{experience}</p>
             ))}
           </span>
         </div>
@@ -64,13 +66,31 @@ const JobDetail = ({ details }) => {
 
         <div>
           <p>
-            <span className=" text-purple-500">
+            <span className=" text-purple-500 text-lg mr-2">
               <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
             </span>
-            <strong>Phone :</strong>
-            <span></span>
+            <strong>Phone : </strong>
+            <span>{details.phone}</span>
+          </p>
+          <p className="my-5">
+            <span className=" text-purple-500 text-lg mr-2">
+              <FontAwesomeIcon icon={faMailBulk}></FontAwesomeIcon>
+            </span>
+            <strong>Email : </strong>
+            <span>{details.email}</span>
+          </p>
+          <p>
+            <span className=" text-purple-500 text-lg mr-2">
+              <FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon>
+            </span>
+            <strong>Location : </strong>
+            <span>{details.address}</span>
           </p>
         </div>
+
+        <button className="my-10 btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] w-full">
+          Apply Now
+        </button>
       </div>
     </div>
   );
