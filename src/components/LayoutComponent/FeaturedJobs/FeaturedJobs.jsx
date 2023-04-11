@@ -3,6 +3,20 @@ import { useLoaderData } from "react-router-dom";
 import JobCompany from "../JobCompany/JobCompany";
 
 const FeaturedJobs = ({ allCompany }) => {
+  const [companies, setCompanies] = useState(4);
+  const handleSliceData = () => {
+    setCompanies(allCompany.length);
+  };
+  // if (companies.length > 4) {
+  //   let lessCompany = companies.slice(0, 4);
+  //   setCompanies(lessCompany);
+  // }
+  // if (companies.length > 4) {
+  //   const company = companies.slice(0, 4);
+  // } else {
+
+  // }
+
   // const [allCompany, setAllCompany] = useState([]);
 
   // if (4 && allCompany > 4) {
@@ -21,14 +35,26 @@ const FeaturedJobs = ({ allCompany }) => {
           need. Its your future
         </p>
       </div>
-      <div className=" grid md:grid-cols-2 grid-cols-1 gap-5">
-        {allCompany.length > 0 &&
-          allCompany.map((jobCompany) => (
-            <JobCompany
-              key={jobCompany.id}
-              jobCompany={jobCompany}
-            ></JobCompany>
-          ))}
+      <div className="text-center">
+        <div className=" grid md:grid-cols-2 grid-cols-1 gap-5 ">
+          {allCompany.length > 0 &&
+            allCompany
+              .slice(0, companies)
+              .map((jobCompany) => (
+                <JobCompany
+                  key={jobCompany.id}
+                  jobCompany={jobCompany}
+                ></JobCompany>
+              ))}
+        </div>
+        <button
+          onClick={handleSliceData}
+          className={`btn btn-error mt-10 ${
+            companies == allCompany.length ? "hidden" : "visible"
+          } `}
+        >
+          see all
+        </button>
       </div>
     </div>
   );
