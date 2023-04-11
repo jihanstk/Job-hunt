@@ -14,16 +14,16 @@ const JobDetail = ({ details }) => {
   const [appliedJob, setAppliedJob] = useState([]);
 
   const handleApplyNow = (job) => {
-    let saveJobs = [];
-    const jobExists = appliedJob.find((aj) => aj.id == job.id);
-    if (!jobExists) {
-      saveJobs = [...appliedJob];
-    } else {
-      const remaining = appliedJob.find((aj) => aj.id !== job.id);
-      saveJobs = [...remaining, jobExists];
-    }
+    // let saveJobs = [];
+    // const jobExists = appliedJob.find((aj) => aj.id == job.id);
+    // if (!jobExists) {
+    //   saveJobs = [...appliedJob];
+    // } else {
+    //   const remaining = appliedJob.find((aj) => aj.id !== job.id);
+    //   saveJobs = [...remaining, jobExists];
+    // }
 
-    setAppliedJob(saveJobs);
+    // setAppliedJob(saveJobs);
     addToDb(job);
   };
   return (

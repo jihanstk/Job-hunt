@@ -2,7 +2,7 @@
   {
     "name": "Technical Database Engineer",
     "id": 1,
-    "image": "../src/assets/All-images/google-1-1 1.png",
+    "image": "https://1000logos.net/wp-content/uploads/2016/11/Google-Logo-2009.jpg",
     "company": "Google LLC",
     "jobTypes": ["Full-time", "Remote"],
     "phone": "01800-000108",
@@ -26,7 +26,7 @@
   {
     "name": "Marketing Manager",
     "id": 2,
-    "image": "../src/assets/All-images/netflix-4 1.png",
+    "image": "https://logospng.org/wp-content/uploads/netflix.jpg",
     "company": "Netflix",
     "jobTypes": ["Part-time", "Contract"],
     "phone": "01800-003408",
@@ -50,7 +50,7 @@
   {
     "name": "Software Engineer",
     "id": 3,
-    "image": "../src/assets/All-images/tesla-9 1.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Tesla_logo.png",
     "company": "Tesla",
     "jobTypes": ["Contract", "Temporary"],
     "phone": "01800-00008",
@@ -74,7 +74,7 @@
   {
     "name": "Graphic Designer",
     "id": 4,
-    "image": "../src/assets/All-images/Group 10021.png",
+    "image": "https://logodownload.org/wp-content/uploads/2016/10/airbnb-logo-10.png",
     "company": "Airbnb",
     "jobTypes": ["Full-time", "Freelance"],
     "phone": "01800-000308",
@@ -96,10 +96,34 @@
     "salary": "$40,000 - $100,000"
   },
   {
-    "name": "Graphic Designer",
+    "name": "Marketing Manager",
     "id": 5,
-    "image": "../src/assets/All-images/CareerHub.png",
-    "company": "Career Hub",
+    "image": "https://1000logos.net/wp-content/uploads/2016/10/Apple-Logo.png",
+    "company": "Apple",
+    "jobTypes": ["Full-time", "Freelance"],
+    "phone": "01800-020308",
+    "email": "info@gmail.com",
+    "address": "mirpur 12, Dhaka, Bangladesh",
+    "location": "Dhaka,Bangladesh",
+    "jobDescription": "We are seeking a creative graphic designer to create engaging visual content for digital and print media.",
+    "jobResponsibilities": [
+      "Design marketing collateral such as brochures, flyers, and banners",
+      "Create social media graphics and other digital content",
+      "Collaborate with marketing and product teams to develop visual brand identity"
+    ],
+    "educationalRequirements": "Bachelor's degree in Graphic Design or related field",
+    "experiences": [
+      "At least 3 years of experience in graphic design",
+      "Expertise in Adobe Creative Suite",
+      "Experience"
+    ],
+    "salary": "$140,000 - $180,000"
+  },
+  {
+    "name": "web Designer",
+    "id": 6,
+    "image": "https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-0.png",
+    "company": "FaceBook",
     "jobTypes": ["Full-time", "Freelance"],
     "phone": "01800-020308",
     "email": "info@gmail.com",

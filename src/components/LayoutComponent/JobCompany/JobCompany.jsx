@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 const JobCompany = ({ jobCompany }) => {
   return (
     <div className="border p-8 text-gray-500 text-center">
-      <img className="w-fit mx-auto" src={jobCompany.image} alt="" />
+      <div>
+        <img className="w-6/12 mx-auto" src={jobCompany.image} alt="" />
+      </div>
       <h2 className="text-xl mt-5 font-bold">{jobCompany.name}</h2>
       <h3 className="font-bold my-2">{jobCompany.company}</h3>
       <div className="my-2 flex gap-4 w-fit mx-auto">
