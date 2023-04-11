@@ -1,5 +1,5 @@
 import React from "react";
-import person from "../../../assets/All Images/P3OLGJ1 copy 1.png";
+import person from "../../../assets/All-images/P3OLGJ1 copy 1.png";
 
 const Header = () => {
   return (
@@ -8,7 +8,7 @@ const Header = () => {
         <img src={person} alt="" />
       </div>
       <div className="md:w-full w-11/12 mt-10 md:text-left text-center mx-auto">
-        <h1 className="md:text-6xl text-3xl font-extrabold">
+        <h1 className="md:text-6xl text-4xl font-extrabold">
           One Step <br /> Closer To Your <br />
           <span className="text-orange-500">Dream Job</span>
         </h1>

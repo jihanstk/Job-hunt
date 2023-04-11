@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import JobCompany from "../JobCompany/JobCompany";
 
-const FeaturedJobs = () => {
-  const jobCompanies = useLoaderData();
+const FeaturedJobs = ({ allCompany }) => {
+  // const [allCompany, setAllCompany] = useState([]);
+
+  // if (4 && allCompany > 4) {
+  //   allCompany = allCompany.slice(0, 4);
+  // }
+
+  // useEffect(() => {
+  //   setAllCompany(jobCompanies);
+  // }, []);
   return (
     <div className="">
       <div className="text-center my-10">
@@ -14,9 +22,13 @@ const FeaturedJobs = () => {
         </p>
       </div>
       <div className=" grid md:grid-cols-2 grid-cols-1 gap-5">
-        {jobCompanies.map((jobCompany) => (
-          <JobCompany key={jobCompany.id} jobCompany={jobCompany}></JobCompany>
-        ))}
+        {allCompany.length > 0 &&
+          allCompany.map((jobCompany) => (
+            <JobCompany
+              key={jobCompany.id}
+              jobCompany={jobCompany}
+            ></JobCompany>
+          ))}
       </div>
     </div>
   );

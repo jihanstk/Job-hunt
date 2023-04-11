@@ -2,7 +2,7 @@
   {
     "name": "Technical Database Engineer",
     "id": 1,
-    "image": "../src/assets/All Images/google-1-1 1.png",
+    "image": "../src/assets/All-images/google-1-1 1.png",
     "company": "Google LLC",
     "jobTypes": ["Full-time", "Remote"],
     "location": "Dhaka,Bangladesh",
@@ -23,7 +23,7 @@
   {
     "name": "Marketing Manager",
     "id": 2,
-    "image": "../src/assets/All Images/netflix-4 1.png",
+    "image": "../src/assets/All-images/netflix-4 1.png",
     "company": "Netflix",
     "jobTypes": ["Part-time", "Contract"],
     "location": "Dhaka,Bangladesh",
@@ -44,7 +44,7 @@
   {
     "name": "Software Engineer",
     "id": 3,
-    "image": "../src/assets/All Images/tesla-9 1.png",
+    "image": "../src/assets/All-images/tesla-9 1.png",
     "company": "Tesla",
     "jobTypes": ["Contract", "Temporary"],
     "location": "Dhaka,Bangladesh",
@@ -65,7 +65,7 @@
   {
     "name": "Graphic Designer",
     "id": 4,
-    "image": "../src/assets/All Images/Group 10021.png",
+    "image": "../src/assets/All-images/Group 10021.png",
     "company": "Airbnb",
     "jobTypes": ["Full-time", "Freelance"],
     "location": "Dhaka,Bangladesh",
@@ -86,7 +86,7 @@
   {
     "name": "Graphic Designer",
     "id": 5,
-    "image": "../src/assets/All Images/CareerHub.png",
+    "image": "../src/assets/All-images/CareerHub.png",
     "company": "Career Hub",
     "jobTypes": ["Full-time", "Freelance"],
     "location": "Dhaka,Bangladesh",

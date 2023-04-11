@@ -15,22 +15,22 @@ const JobCategoryList = () => {
         </p>
       </div>
       <div className="grid md:grid-cols-4 grid-cols-1 justify-between items-center mx-auto text-center">
-        <div className="">
+        <div className="my-5">
           <img className="w-fit mx-auto" src={Account} alt="" />
           <h3 className="my-2 text-xl font-semibold">Account & Finance</h3>
           <p className=" text-gray-500">300 Jobs Available</p>
         </div>
-        <div>
+        <div className="my-5">
           <img className="w-fit mx-auto" src={Creative} alt="" />
           <h3 className="my-2 text-xl font-semibold">Creative Design</h3>
           <p className=" text-gray-500">100 Jobs Available</p>
         </div>
-        <div>
+        <div className="my-5">
           <img className="w-fit mx-auto" src={Marketing} alt="" />
           <h3 className="my-2 text-xl font-semibold">Marketing & Sales</h3>
           <p className=" text-gray-500">150 Jobs Available</p>
         </div>
-        <div>
+        <div className="my-5">
           <img className="w-fit mx-auto" src={Engineering} alt="" />
           <h3 className="my-2 text-xl font-semibold">Engineering Job</h3>
           <p className=" text-gray-500">200 Jobs Available</p>

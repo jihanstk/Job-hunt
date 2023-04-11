@@ -1,0 +1,10 @@
+.grid-custom {
+  display: grid;
+  grid-template-columns: 350px repeat(4, minmax(0, 1fr));
+}
+
+@media screen and (max-width: 640px) {
+  .grid-custom {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}

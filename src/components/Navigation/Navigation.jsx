@@ -62,10 +62,13 @@ const Navigation = () => {
               </NavLink>
             </li>
           ))}
-          <button className=" font-[Poppins] py-2 px-6 btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] md:ml-6 ">
-            jhdfjkhasd
+          <button className="md:hidden visible font-[Poppins] py-2 px-6 btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] md:ml-6 ">
+            Apply Now
           </button>
         </ul>
+        <button className="hidden md:block  font-[Poppins] py-2 px-6 btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] md:ml-6 ">
+          Apply Now
+        </button>
       </div>
     </div>
   );
