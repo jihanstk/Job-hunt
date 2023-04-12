@@ -3,6 +3,7 @@ import AllJobs from "../AllJobs/AllJobs";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import NoData from "../NoData/NoData";
+import RouteHeaders from "../RouteHeaders/RouteHeaders";
 
 const AppliedJobs = () => {
   const applied = JSON.parse(localStorage.getItem("applied-job"));
@@ -17,6 +18,7 @@ const AppliedJobs = () => {
 
   return (
     <div className="text-end w-9/12 mx-auto">
+      <RouteHeaders>Applied JOB</RouteHeaders>
       <div className="dropdown mb-10 p-5 mx-auto">
         <label tabIndex="0" className="btn m-1">
           filter by
