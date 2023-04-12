@@ -32,10 +32,10 @@ const Navigation = () => {
     <div className=" md:w-11/12 md:mx-auto md:my-10">
       <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
         <div
-          className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
+          className="font-bold text-2xl cursor-pointer flex items-center font-serif 
       text-gray-800"
         >
-          Job HUnt
+          Job HuNt
         </div>
 
         <div

@@ -6,25 +6,24 @@ import {
   faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import React, { useState } from "react";
-import { addToDb } from "../../utilities/fakedb";
+import { addToDb, getShoppingCart } from "../../utilities/fakedb";
 
 const JobDetail = ({ details }) => {
   const [appliedJob, setAppliedJob] = useState([]);
 
   const handleApplyNow = (job) => {
-    let saveJobs = [];
-    const jobExists = appliedJob.find((aj) => aj.id == job.id);
-    if (!jobExists) {
-      saveJobs = [...appliedJob];
+    const saved = getShoppingCart();
+    const existCart = saved.find((sd) => sd.id == job.id);
+    if (existCart) {
+      toast.warn("🦄 AlRedy added");
+      return;
     } else {
-      const remaining = appliedJob.find((aj) => aj.id !== job.id);
-      saveJobs = [...remaining, jobExists];
+      addToDb(job);
+      toast.success(`You Applied ${job.company} now`);
     }
-
-    setAppliedJob(saveJobs);
-    addToDb(job);
   };
   return (
     <div className="grid-custom-jobDetail w-10/12  mx-auto">
@@ -103,7 +102,18 @@ const JobDetail = ({ details }) => {
             <span>{details.address}</span>
           </p>
         </div>
-
+        <ToastContainer
+          position="bottom-center"
+          autoClose={1000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="colored"
+        />
         <button
           onClick={() => handleApplyNow(details)}
           className="my-10 btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] w-full"

@@ -3,6 +3,7 @@ import Header from "../LayoutComponent/Header/Header";
 import JobCategoryList from "../LayoutComponent/JobCategoryList/JobCategoryList";
 import FeaturedJobs from "../LayoutComponent/FeaturedJobs/FeaturedJobs";
 import { useLoaderData } from "react-router-dom";
+import Footer from "../Footer/Footer";
 
 const Layout = () => {
   const allCompany = useLoaderData();

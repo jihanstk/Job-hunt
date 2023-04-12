@@ -3,7 +3,7 @@ import social from "../../assets/Icons/Group 9969.png";
 import "./Footer.css";
 const Footer = () => {
   return (
-    <div className="md:p-20 md:px-32  bg-black mt-40">
+    <div className="md:p-20 md:px-32 relative bottom-0  bg-black mt-40">
       <div className="grid-custom md:text-left text-center border-b border-slate-600 ">
         <div className="text-white p-2 pt-10">
           <h1 className=" text-3xl">CareerHub</h1>

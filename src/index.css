@@ -6,3 +6,6 @@ body {
   overflow: visible !important;
   position: static;
 }
+html {
+  scroll-behavior: smooth;
+}

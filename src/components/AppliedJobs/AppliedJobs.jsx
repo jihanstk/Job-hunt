@@ -35,7 +35,7 @@ const AppliedJobs = () => {
             <a>Remote</a>
           </li>
           <li onClick={() => handleFilter("on-site")}>
-            <a>Part-time</a>
+            <a>on-site</a>
           </li>
         </ul>
       </div>

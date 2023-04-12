@@ -53,7 +53,7 @@ const FeaturedJobs = ({ allCompany }) => {
             companies == allCompany.length ? "hidden" : "visible"
           } `}
         >
-          see all
+          See all Jobs
         </button>
       </div>
     </div>
